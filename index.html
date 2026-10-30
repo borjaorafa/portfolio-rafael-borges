@@ -1,155 +1,342 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#0d0b19">
-  <meta name="description" content="Portfólio profissional de Rafael Borges. Conheça minha trajetória em tecnologia, gestão de projetos, implantação de sistemas, consultorias e treinamentos, além de apresentações em vídeo.">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="pt_BR">
-  <meta property="og:title" content="Rafael Borges | Portfólio profissional">
-  <meta property="og:description" content="Conheça minha trajetória profissional em tecnologia, projetos, implantação de sistemas e treinamentos. Assista às apresentações em vídeo.">
-  <meta property="og:image" content="./assets/compartilhamento.png">
-  <meta name="color-scheme" content="dark light">
-  <title>Rafael Borges | Portfólio profissional</title>
-  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./script.js" defer></script>
-</head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
+<meta content="#0d0b19" name="theme-color"/>
+<meta content="Portfólio de Rafael Borges. Projetos, liderança de equipes, consultoria, implantação de sistemas e apresentações em vídeo." name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="pt_BR" property="og:locale"/>
+<meta content="Rafael Borges | Portfólio profissional" property="og:title"/>
+<meta content="Conheça a trajetória profissional de Rafael Borges, suas áreas de atuação e apresentações em tecnologia, gestão e consultoria." property="og:description"/>
+<meta content="https://borjaorafa.github.io/portfolio-rafael-borges/assets/compartilhamento.png" property="og:image"/>
+<meta content="dark light" name="color-scheme"/>
+<title>Rafael Borges | Projetos, consultoria e treinamentos</title>
+<link href="./favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="./styles.css" rel="stylesheet"/>
+<!-- GSAP para movimento progressivo; todos os recursos principais funcionam sem CDN. -->
+<link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect"/>
+<script defer="" src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+<script defer="" src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+<script defer="" src="./script.js"></script>
+<link href="https://borjaorafa.github.io/portfolio-rafael-borges/" rel="canonical"/><meta content="index, follow, max-image-preview:large" name="robots"/><meta content="Rafael Borges" name="author"/><meta content="https://borjaorafa.github.io/portfolio-rafael-borges/" property="og:url"/><meta content="Rafael Borges | Portfólio profissional" property="og:site_name"/><meta content="Portfólio profissional de Rafael Borges, gestão de projetos, tecnologia e consultoria." property="og:image:alt"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="image/png" property="og:image:type"/><meta content="summary_large_image" name="twitter:card"/><meta content="Rafael Borges | Portfólio profissional" name="twitter:title"/><meta content="Gestão de projetos, implantação de sistemas, consultoria e treinamentos." name="twitter:description"/><meta content="https://borjaorafa.github.io/portfolio-rafael-borges/assets/compartilhamento.png" name="twitter:image"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Rafael Borges","alternateName":"Rafael Borges da Silva","url":"https://borjaorafa.github.io/portfolio-rafael-borges/","image":"https://borjaorafa.github.io/portfolio-rafael-borges/assets/rafael-borges.jpg","sameAs":["https://www.linkedin.com/in/rafael-borges-dasilva/","https://github.com/borjaorafa"],"jobTitle":"Diretor de Projetos","worksFor":{"@type":"Organization","name":"RBS Technology"},"knowsAbout":["Gestão de Projetos","Liderança de Equipes","Implantação de Sistemas ERP","Consultoria Técnica","Arquitetura de Soluções","Treinamentos"]}</script></head>
 <body>
-  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
-  <header class="cabecalho" id="inicio">
-    <div class="container cabecalho__interno">
-      <a href="#inicio" class="assinatura" aria-label="Rafael Borges, início">
-        <span class="assinatura__simbolo" aria-hidden="true">rb<span>.</span></span>
-        <span class="assinatura__texto"><strong>Rafael Borges</strong><small>Portfólio profissional</small></span>
-      </a>
-      <nav class="navegacao" aria-label="Navegação principal">
-        <a href="#apresentacoes">Apresentações</a>
-        <a href="#sobre">Sobre mim</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#contato">Contato</a>
-      </nav>
-      <a class="cabecalho__contato" href="https://www.linkedin.com/in/rafael-borges-dasilva/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-    </div>
-  </header>
-  <main id="conteudo">
-    <section class="destaque" aria-labelledby="titulo-principal">
-      <div class="container destaque__grade">
-        <div class="destaque__texto">
-          <p class="sobretitulo"><span class="sobretitulo__traco" aria-hidden="true"></span> PORTFÓLIO PROFISSIONAL</p>
-          <h1 id="titulo-principal">Rafael <em>Borges.</em></h1>
-          <p class="destaque__area">Gestão de Projetos <span>·</span> Tecnologia <span>·</span> Consultoria e Treinamentos</p>
-          <p class="destaque__descricao">Trabalho com tecnologia desde 2010. Ao longo da minha carreira, tive a oportunidade de atuar em diferentes áreas, desde o desenvolvimento e suporte de sistemas até a implantação de soluções, gestão de produtos e liderança de equipes.</p>
-          <p class="destaque__descricao destaque__descricao--final">Neste portfólio, compartilho algumas apresentações em vídeo e um pouco da minha trajetória profissional.</p>
-          <div class="destaque__acoes">
-            <a href="#apresentacoes" class="botao botao--principal">Ver apresentações <span aria-hidden="true">↗</span></a>
-            <a href="#sobre" class="link-discreto">Conhecer minha trajetória <span aria-hidden="true">↗</span></a>
-          </div>
-          <p class="destaque__nota">Tecnologia <span aria-hidden="true">·</span> Projetos <span aria-hidden="true">·</span> Treinamentos</p>
-        </div>
-        <div class="destaque__visual">
-          <div class="visual__sombra" aria-hidden="true"></div>
-          <div class="visual__moldura">
-            <div class="visual__topo"><span>APRESENTAÇÃO EM DESTAQUE</span><span>01 / 04</span></div>
-            <div class="visual__elemento" aria-hidden="true">
-              <span class="visual__documento visual__documento--tras"></span>
-              <span class="visual__documento visual__documento--frente"><i></i><i></i><i></i><i></i></span>
-            </div>
-            <div class="visual__inferior">
-              <div><span>EM VÍDEO</span><h2>Apresentação<br>financeira<span>.</span></h2></div>
-              <a data-video="financeiro" class="visual__play" href="https://drive.google.com/file/d/16xeV9lCVPOyWeZC488_8tPKZij_54cV3/view?usp=sharing" aria-label="Assistir à apresentação financeira"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></svg></a>
-            </div>
-          </div>
-          <p class="visual__legenda">Apresentação financeira <span>Assista aqui no portfólio</span></p>
-        </div>
-      </div>
-    </section>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header class="cabecalho" id="inicio">
+<div class="container cabecalho__interno">
+<a aria-label="Rafael Borges, início" class="assinatura" href="#inicio">
+<span aria-hidden="true" class="assinatura__simbolo">rb<span>.</span></span>
+<span class="assinatura__texto"><strong>Rafael Borges</strong><small>Portfólio profissional</small></span>
+</a>
+<nav aria-label="Navegação principal" class="navegacao"><a href="#sobre">Sobre mim</a><a href="#atuacao">Atuação</a><a href="#projetos-desenvolvidos">Projetos</a><a href="#apresentacoes">Treinamentos</a><a href="#recomendacoes">Recomendações</a><a href="#contato">Contato</a></nav>
+<div class="cabecalho__acoes"><div aria-hidden="true" class="cabecalho__local"><span>SEÇÃO ATUAL</span><strong id="capitulo-atual">Início</strong></div>
+<a class="cabecalho__contato" href="https://www.linkedin.com/in/rafael-borges-dasilva/" rel="noopener noreferrer" target="_blank">LinkedIn <span aria-hidden="true">↗</span></a>
+<button aria-controls="menu-mobile" aria-expanded="false" aria-label="Abrir menu de navegação" class="menu-alternar" id="menu-alternar" type="button">
+<span class="menu-alternar__linha"></span><span class="menu-alternar__linha"></span><span class="menu-alternar__linha"></span>
+</button>
+</div>
+</div>
+<nav aria-label="Navegação para celular" class="menu-mobile" hidden="" id="menu-mobile">
+<div class="container menu-mobile__interno"><a href="#sobre"><span>01</span> Sobre mim <span aria-hidden="true">↗</span></a><a href="#atuacao"><span>02</span> Áreas de atuação <span aria-hidden="true">↗</span></a><a href="#apresentacoes"><span>03</span> Treinamentos <span aria-hidden="true">↗</span></a><a href="#projetos-desenvolvidos"><span>04</span> Projetos <span aria-hidden="true">↗</span></a><a href="#experiencia"><span>05</span> Experiência <span aria-hidden="true">↗</span></a><a href="#conhecimentos"><span>06</span> Conhecimentos <span aria-hidden="true">↗</span></a><a href="#formacao"><span>07</span> Formação <span aria-hidden="true">↗</span></a><a href="#recomendacoes"><span>08</span> Recomendações <span aria-hidden="true">↗</span></a><a href="#contato"><span>09</span> Contato <span aria-hidden="true">↗</span></a></div>
+</nav>
+<div aria-hidden="true" class="progresso-rolagem"><span id="progresso-rolagem"></span></div>
+</header>
+<nav aria-label="Atalhos para as seções" class="secoes-flutuantes"><a aria-label="Início" data-secao="inicio" href="#inicio"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Início</span></a><a aria-label="Sobre mim" data-secao="sobre" href="#sobre"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Sobre mim</span></a><a aria-label="Atuação" data-secao="atuacao" href="#atuacao"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Atuação</span></a><a aria-label="Vídeos" data-secao="apresentacoes" href="#apresentacoes"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Vídeos</span></a><a aria-label="Soluções e Projetos desenvolvidos" data-secao="projetos-desenvolvidos" href="#projetos-desenvolvidos"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Projetos</span></a><a aria-label="Experiência" data-secao="experiencia" href="#experiencia"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Experiência</span></a><a aria-label="Conhecimentos" data-secao="conhecimentos" href="#conhecimentos"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Conhecimentos</span></a><a aria-label="Formação" data-secao="formacao" href="#formacao"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Formação</span></a><a aria-label="Recomendações" data-secao="recomendacoes" href="#recomendacoes"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Recomendações</span></a><a aria-label="Contato" data-secao="contato" href="#contato"><span class="secoes-flutuantes__ponto"></span><span class="secoes-flutuantes__texto">Contato</span></a></nav>
+<main id="conteudo">
+<section aria-labelledby="titulo-principal" class="destaque">
+<div class="container destaque__grade">
+<div class="destaque__texto">
+<p class="sobretitulo"><span aria-hidden="true" class="sobretitulo__traco"></span> PORTFÓLIO PROFISSIONAL</p>
+<h1 id="titulo-principal">Rafael <em>Borges.</em></h1>
+<p class="destaque__area">Gestão de Projetos <span>·</span> Tecnologia <span>·</span> Consultoria e Treinamentos</p>
+<p class="destaque__descricao">Trabalho com tecnologia desde 2010. Ao longo da minha carreira, tive a oportunidade de atuar em diferentes áreas, desde o desenvolvimento e suporte de sistemas até a implantação de soluções, gestão de produtos e liderança de equipes.</p>
+<p class="destaque__descricao destaque__descricao--final">Neste portfólio, compartilho algumas apresentações em vídeo e um pouco da minha trajetória profissional.</p>
+<div class="destaque__acoes">
+<a class="botao botao--principal" href="#experiencia">Ver minha experiência <span aria-hidden="true">↗</span></a>
+<a class="link-discreto" href="#sobre">Conhecer minha trajetória <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+<aside aria-label="Explorar o portfólio por assunto" class="destaque__painel">
+<div class="painel-editorial__cabecalho"><span>ÁREAS EM FOCO</span><span aria-hidden="true" class="painel-editorial__ponto"></span></div>
+<div class="painel-editorial__conteudo">
+<a class="painel-editorial__item" data-indice="01" href="#atuacao"><span class="painel-editorial__numero">01</span><span class="painel-editorial__assunto"><strong>Pessoas</strong><small>Liderança e gestão de equipes</small></span><span aria-hidden="true" class="painel-editorial__seta">↗</span></a>
+<a class="painel-editorial__item" data-indice="02" href="#experiencia"><span class="painel-editorial__numero">02</span><span class="painel-editorial__assunto"><strong>Projetos</strong><small>Trajetória profissional</small></span><span aria-hidden="true" class="painel-editorial__seta">↗</span></a>
+<a class="painel-editorial__item" data-indice="03" href="#apresentacoes"><span class="painel-editorial__numero">03</span><span class="painel-editorial__assunto"><strong>Sistemas</strong><small>Treinamentos em vídeo</small></span><span aria-hidden="true" class="painel-editorial__seta">↗</span></a>
+</div>
+<div class="painel-editorial__rodape"><span>DESDE 2010 NA TECNOLOGIA</span><span aria-hidden="true" class="painel-editorial__asterisco">✳</span></div>
+</aside></div>
+</section><section aria-label="Marcos da trajetória profissional" class="marcos marcos--v9" id="resultados"><div class="container marcos__grade">
+<div class="marcos__item"><span class="marcos__numero">15<span class="marcos__sufixo">+</span></span><span class="marcos__legenda">anos de atuação em tecnologia</span></div>
+<div class="marcos__item"><span class="marcos__numero">150<span class="marcos__sufixo">+</span></span><span class="marcos__legenda">entradas em produção (GoLives)</span></div>
+<div class="marcos__item"><span class="marcos__numero">50<span class="marcos__sufixo">+</span></span><span class="marcos__legenda">pessoas gerenciadas em equipes multidisciplinares</span></div>
+</div></section><section aria-labelledby="titulo-sobre" class="sobre" id="sobre">
+<div class="container sobre__grade">
+<div class="sobre__foto-wrap">
+<div class="sobre__foto"><img alt="Fotografia de Rafael Borges" decoding="async" fetchpriority="low" height="400" loading="lazy" src="./assets/rafael-borges.jpg" width="400"/></div>
+<div class="sobre__foto-legenda"><strong>Rafael Borges</strong><span>São Paulo, SP</span></div>
+</div>
+<div class="sobre__conteudo">
+<span class="secao-topo__legenda">SOBRE MIM</span>
+<h2 id="titulo-sobre">Um pouco <span>sobre mim.</span></h2>
+<p>Minha história com a tecnologia começou em 2010, trabalhando com desenvolvimento de software e estudando Sistemas de Informação, desbravando o universo do front-end e back-end. Com o passar do tempo, tive a oportunidade de conhecer e atuar em diferentes áreas da TI, como infraestrutura, suporte técnico, qualidade de software, gestão de projetos, implantação de sistemas e consultoria.</p>
+<p>No decorrer dos anos, assumi novas responsabilidades, envolvendo arquitetura de soluções, gestão de produtos, coordenação de equipes e direção de projetos. Hoje, estou à frente de projetos da <strong>RBS Technology</strong>.</p>
+<p>Com a experiência, aprendi que um projeto não termina simplesmente quando o sistema é entregue ou quando o usuário assina o aceite.</p><blockquote class="sobre__citacao">O sistema precisa fazer sentido para quem vai utilizá-lo.</blockquote><p class="sobre__continuacao">Por isso, gosto de entender o dia a dia das pessoas, organizar o que precisa ser feito e acompanhar a solução até que ela realmente atenda às necessidades da operação. Treinar equipes também faz parte desse caminho.</p>
+<p>Acredito que ter passado por diferentes etapas da operação me ajudou bastante na maneira como trabalho hoje. Já estive na posição de quem precisa resolver um chamado, entender um problema técnico, implantar um sistema e orientar pessoas que estão aprendendo a utilizá-lo. Também tive a oportunidade de formar profissionais para atuar em suporte, treinamentos, administração técnica e consultoria, algo que considero especialmente gratificante.</p>
+<p>Procuro levar essa experiência para os projetos que conduzo, buscando compreender as necessidades de cada operação, manter uma comunicação clara com as equipes e acompanhar de perto o andamento das entregas.</p>
+<p>Também gosto muito da parte de capacitação. Durante minha trajetória, realizei treinamentos, participei de workshops e, em 2023, tive a oportunidade de publicar um curso EAD sobre ERP. Compartilhar conhecimento e ajudar outras pessoas a compreenderem melhor as ferramentas que utilizam é uma atividade que valorizo bastante.</p>
+<a class="sobre__linkedin" href="https://www.linkedin.com/in/rafael-borges-dasilva/" rel="noopener noreferrer" target="_blank">Conhecer meu perfil no LinkedIn <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+</section><section aria-labelledby="titulo-especialidades" class="especialidades" id="atuacao">
+<div class="container especialidades__interno">
+<div class="especialidades__introducao"><span class="secao-topo__legenda">ATUAÇÃO PROFISSIONAL</span><h2 id="titulo-especialidades">Áreas de atuação</h2></div>
+<div class="especialidades__grade">
+<button aria-expanded="false" aria-label="Liderança de Equipes. Coordenação de equipes técnicas e multidisciplinares. Ativar detalhes." class="especialidades__item especialidades__item--principal" type="button"><span>01</span><strong>Liderança de Equipes</strong><span class="especialidades__detalhe">Coordenação de equipes técnicas e multidisciplinares.</span><span aria-hidden="true" class="especialidades__sinal">+</span></button>
+<button aria-expanded="false" aria-label="Gestão de Projetos. Planejamento, cronogramas e acompanhamento de entregas. Ativar detalhes." class="especialidades__item" type="button"><span>02</span><strong>Gestão de Projetos</strong><span class="especialidades__detalhe">Planejamento, cronogramas e acompanhamento de entregas.</span><span aria-hidden="true" class="especialidades__sinal">+</span></button>
+<button aria-expanded="false" aria-label="Implantação de Sistemas. Diagnóstico, GoLive e acompanhamento da operação. Ativar detalhes." class="especialidades__item" type="button"><span>03</span><strong>Implantação de Sistemas</strong><span class="especialidades__detalhe">Diagnóstico, GoLive e acompanhamento da operação.</span><span aria-hidden="true" class="especialidades__sinal">+</span></button>
+<button aria-expanded="false" aria-label="Consultoria Técnica. Levantamento de necessidades e orientação técnica. Ativar detalhes." class="especialidades__item" type="button"><span>04</span><strong>Consultoria Técnica</strong><span class="especialidades__detalhe">Levantamento de necessidades e orientação técnica.</span><span aria-hidden="true" class="especialidades__sinal">+</span></button>
+<button aria-expanded="false" aria-label="Arquitetura de Soluções. Modelagem de processos, sistemas e integrações. Ativar detalhes." class="especialidades__item" type="button"><span>05</span><strong>Arquitetura de Soluções</strong><span class="especialidades__detalhe">Modelagem de processos, sistemas e integrações.</span><span aria-hidden="true" class="especialidades__sinal">+</span></button>
+<button aria-expanded="false" aria-label="Treinamentos Corporativos. Capacitação de usuários, workshops e cursos EAD. Ativar detalhes." class="especialidades__item" type="button"><span>06</span><strong>Treinamentos Corporativos</strong><span class="especialidades__detalhe">Capacitação de usuários, workshops e cursos EAD.</span><span aria-hidden="true" class="especialidades__sinal">+</span></button>
+</div>
+</div>
+<div class="container atuacao__complemento"><div class="atuacao__nota"><span class="atuacao__nota-indice">COMO POSSO CONTRIBUIR</span><p>Atuo em projetos de tecnologia desde a compreensão do cenário até a implantação, o acompanhamento da operação e a capacitação das pessoas envolvidas.</p></div><div aria-label="Formatos de atuação" class="atuacao__formatos"><span>Projetos</span><span>Consultoria técnica</span><span>Treinamentos</span><span>Arquitetura de soluções</span></div></div></section><section aria-labelledby="titulo-apresentacoes" class="apresentacoes" id="apresentacoes">
+<div class="container">
+<div class="secao-topo">
+<div><span class="secao-topo__legenda">BIBLIOTECA DE VÍDEOS</span><h2 id="titulo-apresentacoes">Apresentações <span>e treinamentos</span></h2></div>
+<p>Quatro apresentações sobre módulos de sistemas de gestão. Os vídeos permitem conhecer minha forma de explicar ferramentas e orientar usuários.</p>
+</div>
+<div class="galeria">
+<article class="video" data-tema="Módulo financeiro">
+<a aria-label="Assistir à apresentação financeira" class="video__capa video__capa--financeiro" data-video="financeiro" href="https://drive.google.com/file/d/16xeV9lCVPOyWeZC488_8tPKZij_54cV3/view?usp=sharing">
+<span class="video__indice">01 / 04</span>
+<span aria-hidden="true" class="video__tipografia">01</span>
+<span class="video__nome">Financeiro</span><span aria-hidden="true" class="video__play"><svg fill="currentColor" viewbox="0 0 24 24"><path d="M8 5.5v13l11-6.5-11-6.5Z"></path></svg></span>
+<span aria-hidden="true" class="video__legenda-interativa">REPRODUZIR VÍDEO <span>↗</span></span></a><div class="video__rodape"><div><h3>Apresentação financeira</h3><p>Visão de rotinas financeiras em um sistema de gestão.</p></div><span aria-hidden="true">↗</span></div>
+</article>
+<article class="video" data-tema="Produtos">
+<a aria-label="Assistir à apresentação de produtos" class="video__capa video__capa--produtos" data-video="produtos" href="https://drive.google.com/file/d/1pfJQMGg7YWrXrgMefhqGoH1zN24qu7Tn/view?usp=sharing">
+<span class="video__indice">02 / 04</span><span aria-hidden="true" class="video__tipografia">02</span>
+<span class="video__nome">Produtos</span><span aria-hidden="true" class="video__play"><svg fill="currentColor" viewbox="0 0 24 24"><path d="M8 5.5v13l11-6.5-11-6.5Z"></path></svg></span>
+<span aria-hidden="true" class="video__legenda-interativa">REPRODUZIR VÍDEO <span>↗</span></span></a><div class="video__rodape"><div><h3>Apresentação de produtos</h3><p>Estrutura e organização de cadastros de produtos.</p></div><span aria-hidden="true">↗</span></div>
+</article>
+<article class="video" data-tema="Cadastro de pessoas">
+<a aria-label="Assistir à apresentação cadastral de pessoas" class="video__capa video__capa--pessoas" data-video="pessoas" href="https://drive.google.com/file/d/1NL6UeyYiwIg1UpglAyZNK_0PVl6CRYmT/view?usp=sharing">
+<span class="video__indice">03 / 04</span><span aria-hidden="true" class="video__tipografia">03</span>
+<span class="video__nome">Cadastro de pessoas</span><span aria-hidden="true" class="video__play"><svg fill="currentColor" viewbox="0 0 24 24"><path d="M8 5.5v13l11-6.5-11-6.5Z"></path></svg></span>
+<span aria-hidden="true" class="video__legenda-interativa">REPRODUZIR VÍDEO <span>↗</span></span></a><div class="video__rodape"><div><h3>Apresentação cadastral de pessoas</h3><p>Apresentação da área cadastral de pessoas.</p></div><span aria-hidden="true">↗</span></div>
+</article>
+<article class="video" data-tema="Estoque">
+<a aria-label="Assistir à apresentação de estoque" class="video__capa video__capa--estoque" data-video="estoque" href="https://drive.google.com/file/d/1wNbVYhPoWxlgjYXoT_XWs23z0ccJVZe3/view?usp=sharing">
+<span class="video__indice">04 / 04</span><span aria-hidden="true" class="video__tipografia">04</span>
+<span class="video__nome">Estoque</span><span aria-hidden="true" class="video__play"><svg fill="currentColor" viewbox="0 0 24 24"><path d="M8 5.5v13l11-6.5-11-6.5Z"></path></svg></span>
+<span aria-hidden="true" class="video__legenda-interativa">REPRODUZIR VÍDEO <span>↗</span></span></a><div class="video__rodape"><div><h3>Apresentação de estoque</h3><p>Apresentação de funcionalidades relacionadas a estoque.</p></div><span aria-hidden="true">↗</span></div>
+</article>
+</div>
+<p class="apresentacoes__aviso">Os arquivos são reproduzidos pelo Google Drive. Se a reprodução não abrir nesta página, utilize o botão para assistir diretamente no Drive.</p>
+</div>
+</section>
+<section aria-labelledby="titulo-projetos-autorais" class="projetos-autorais" id="projetos-desenvolvidos">
+<div class="container">
+<header class="projetos-autorais__cabecalho">
+<div>
+<span class="secao-topo__legenda">DESENVOLVIMENTOS</span>
+<h2 id="titulo-projetos-autorais">Soluções e <span>Projetos desenvolvidos.</span></h2>
+</div>
+<p>Seleção de aplicativos, softwares e produtos digitais que desenvolvi ou conduzi, cada um com foco próprio, regras de negócio específicas e desafios reais de experiência, operação e evolução contínua.</p>
+</header>
+<div class="projetos-autorais__grade">
+<article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Diário de Pressão" class="projeto-autor" data-projeto="diario-de-pressao" data-video-projeto="diario-de-pressao" role="button" tabindex="0">
+<div class="projeto-autor__vitrine projeto-autor__vitrine--diario">
+<img alt="Logo do Diário de Pressão" class="projeto-autor__logo projeto-autor__logo--icone-v11-3" decoding="async" loading="lazy" src="./assets/projetos/logos/diario-de-pressao-oficial.webp"/>
 
-    <section class="apresentacoes" id="apresentacoes" aria-labelledby="titulo-apresentacoes">
-      <div class="container">
-        <div class="secao-topo">
-          <div><span class="secao-topo__legenda">APRESENTAÇÕES</span><h2 id="titulo-apresentacoes">Apresentações <span>e treinamentos</span></h2></div>
-          <p>Reuni aqui quatro apresentações relacionadas a sistemas de gestão empresarial. Os vídeos mostram um pouco do meu trabalho com treinamentos e sistemas.</p>
-        </div>
-        <div class="galeria">
-          <article class="video">
-            <a class="video__capa video__capa--financeiro" data-video="financeiro" href="https://drive.google.com/file/d/16xeV9lCVPOyWeZC488_8tPKZij_54cV3/view?usp=sharing" aria-label="Assistir à apresentação financeira">
-              <span class="video__indice">01 / 04</span><span class="capa-desenho capa-desenho--fin" aria-hidden="true"><i></i><i></i><i></i></span>
-              <span class="video__nome">Financeiro</span><span class="video__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></svg></span>
-            </a><div class="video__rodape"><div><h3>Apresentação financeira</h3><p>Assista à apresentação em vídeo.</p></div><span aria-hidden="true">↗</span></div>
-          </article>
-          <article class="video">
-            <a class="video__capa video__capa--produtos" data-video="produtos" href="https://drive.google.com/file/d/1pfJQMGg7YWrXrgMefhqGoH1zN24qu7Tn/view?usp=sharing" aria-label="Assistir à apresentação de produtos">
-              <span class="video__indice">02 / 04</span><span class="capa-desenho capa-desenho--prod" aria-hidden="true"><i></i><i></i><i></i></span>
-              <span class="video__nome">Produtos</span><span class="video__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></svg></span>
-            </a><div class="video__rodape"><div><h3>Apresentação de produtos</h3><p>Assista à apresentação em vídeo.</p></div><span aria-hidden="true">↗</span></div>
-          </article>
-          <article class="video">
-            <a class="video__capa video__capa--pessoas" data-video="pessoas" href="https://drive.google.com/file/d/1NL6UeyYiwIg1UpglAyZNK_0PVl6CRYmT/view?usp=sharing" aria-label="Assistir à apresentação cadastral de pessoas">
-              <span class="video__indice">03 / 04</span><span class="capa-desenho capa-desenho--pessoas" aria-hidden="true"><i></i><i></i><i></i></span>
-              <span class="video__nome">Cadastro de pessoas</span><span class="video__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></svg></span>
-            </a><div class="video__rodape"><div><h3>Apresentação cadastral de pessoas</h3><p>Assista à apresentação em vídeo.</p></div><span aria-hidden="true">↗</span></div>
-          </article>
-          <article class="video">
-            <a class="video__capa video__capa--estoque" data-video="estoque" href="https://drive.google.com/file/d/1wNbVYhPoWxlgjYXoT_XWs23z0ccJVZe3/view?usp=sharing" aria-label="Assistir à apresentação de estoque">
-              <span class="video__indice">04 / 04</span><span class="capa-desenho capa-desenho--estoque" aria-hidden="true"><i></i><i></i><i></i></span>
-              <span class="video__nome">Estoque</span><span class="video__play" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></svg></span>
-            </a><div class="video__rodape"><div><h3>Apresentação de estoque</h3><p>Assista à apresentação em vídeo.</p></div><span aria-hidden="true">↗</span></div>
-          </article>
-        </div>
-        <p class="apresentacoes__aviso">Os vídeos podem ser assistidos diretamente nesta página ou abertos no Google Drive.</p>
-      </div>
-    </section>
+<span aria-hidden="true" class="projeto-autor__play">▶</span></div>
+<div class="projeto-autor__descricao"><span class="projeto-autor__categoria">SAÚDE E ACOMPANHAMENTO</span><h3>Diário de Pressão</h3><p>Aplicativo de acompanhamento pessoal de saúde criado para registrar pressão arterial, batimentos, peso e uso de medicamentos, com histórico consolidado, gráficos por período, indicadores médios e apoio visual para facilitar a leitura da rotina e das oscilações ao longo do tempo.</p></div>
+</article>
+<article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Meu Roteirista" class="projeto-autor" data-projeto="meu-roteirista" data-video-projeto="meu-roteirista" role="button" tabindex="0">
+<div class="projeto-autor__vitrine projeto-autor__vitrine--roteirista">
+<img alt="Logo do Meu Roteirista" class="projeto-autor__logo projeto-autor__logo--icone-v11-3" decoding="async" loading="lazy" src="./assets/projetos/logos/meu-roteirista-oficial.webp"/>
 
-    <section class="sobre" id="sobre" aria-labelledby="titulo-sobre">
-      <div class="container sobre__grade">
-        <div class="sobre__foto-wrap">
-          <div class="sobre__foto"><img src="./assets/rafael-borges.jpg" alt="Fotografia de Rafael Borges" loading="lazy" width="400" height="400"></div>
-          <div class="sobre__foto-legenda"><strong>Rafael Borges</strong><span>São Paulo, SP</span></div>
-        </div>
-        <div class="sobre__conteudo">
-          <span class="secao-topo__legenda">SOBRE MIM</span>
-          <h2 id="titulo-sobre">Um pouco <span>sobre mim.</span></h2>
-          <p>Minha história com a tecnologia começou em 2010, trabalhando com desenvolvimento de software e estudando Sistemas de Informação, desbravando o universo do front-end e back-end. Com o passar do tempo, tive a oportunidade de conhecer e atuar em diferentes áreas da TI, como infraestrutura, suporte técnico, qualidade de software, gestão de projetos, implantação de sistemas e consultoria.</p>
-          <p>No decorrer dos anos, assumi novas responsabilidades, envolvendo arquitetura de soluções, gestão de produtos, coordenação de equipes e direção de projetos. Hoje, estou à frente de projetos da <strong>RBS Technology</strong>.</p>
-          <p>Com a experiência, aprendi que um projeto não termina simplesmente quando o sistema é entregue ou quando o usuário assina o aceite. O sistema precisa fazer sentido para quem vai utilizá-lo. Por isso, gosto de entender o dia a dia das pessoas, organizar o que precisa ser feito e acompanhar a solução até que ela realmente atenda às necessidades da operação. Treinar equipes também faz parte desse caminho.</p>
-          <p>Acredito que ter passado por diferentes etapas da operação me ajudou bastante na maneira como trabalho hoje. Já estive na posição de quem precisa resolver um chamado, entender um problema técnico, implantar um sistema e orientar pessoas que estão aprendendo a utilizá-lo. Também tive a oportunidade de formar profissionais para atuar em suporte, treinamentos, administração técnica e consultoria, algo que considero especialmente gratificante.</p>
-          <p>Procuro levar essa experiência para os projetos que conduzo, buscando compreender as necessidades de cada operação, manter uma comunicação clara com as equipes e acompanhar de perto o andamento das entregas.</p>
-          <p>Também gosto muito da parte de capacitação. Durante minha trajetória, realizei treinamentos, participei de workshops e, em 2023, tive a oportunidade de publicar um curso EAD sobre ERP. Compartilhar conhecimento e ajudar outras pessoas a compreenderem melhor as ferramentas que utilizam é uma atividade que valorizo bastante.</p>
-          <a class="sobre__linkedin" href="https://www.linkedin.com/in/rafael-borges-dasilva/" target="_blank" rel="noopener noreferrer">Conhecer meu perfil no LinkedIn <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </section>
+<span aria-hidden="true" class="projeto-autor__play">▶</span></div>
+<div class="projeto-autor__descricao"><span class="projeto-autor__categoria">ROTAS E DESLOCAMENTOS</span><h3>Meu Roteirista</h3><p>Aplicativo desenvolvido para organizar rotas e paradas de forma prática, comparando alternativas por custo, distância e tempo, além de apoiar decisões antes da saída, registrar preferências e tornar a jornada mais eficiente para quem depende de deslocamentos frequentes.</p></div>
+</article>
+<article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Midas by RBS Technology" class="projeto-autor" data-projeto="midas-by-rbs-technology" data-video-projeto="midas-by-rbs-technology" role="button" tabindex="0">
+<div class="projeto-autor__vitrine projeto-autor__vitrine--midas">
+<img alt="Logo do Midas by RBS Technology" class="projeto-autor__logo projeto-autor__logo--icone-v11-3" decoding="async" loading="lazy" src="./assets/projetos/logos/midas-oficial-v2.png"/>
 
-    <section class="experiencia" id="experiencia" aria-labelledby="titulo-experiencia">
-      <div class="container experiencia__grade">
-        <div class="experiencia__titulo"><span class="secao-topo__legenda">EXPERIÊNCIA PROFISSIONAL</span><h2 id="titulo-experiencia">Minha trajetória <span>profissional.</span></h2><p>Minha carreira começou na área técnica e, ao longo dos anos, foi se aproximando cada vez mais da gestão de projetos, produtos e pessoas. Tive a oportunidade de trabalhar com diferentes segmentos, sistemas empresariais e equipes, experiências que contribuíram para a minha formação profissional e para a maneira como conduzo meu trabalho atualmente.</p></div>
-        <div class="experiencia__lista">
-          <article class="experiencia__item"><span class="experiencia__numero" aria-hidden="true">01</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Setembro de 2024 – Atual</span></div><h3>RBS Technology</h3><p class="experiencia__cargo">Diretor de Projetos</p><div class="experiencia__descricao"><p>Atualmente, atuo na direção de projetos da RBS Technology, dando continuidade à minha trajetória em gestão de tecnologia, desenvolvimento de soluções e produtos digitais.</p></div></div></article>
-          <article class="experiencia__item"><span class="experiencia__numero" aria-hidden="true">02</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Outubro de 2024 – Dezembro de 2025</span></div><h3>Omnibees / Grupo Hive</h3><p class="experiencia__cargo">Analista de Sistemas Sênior</p><div class="experiencia__descricao"><p>Atuei na administração de sistemas corporativos utilizados pelas seis empresas do Grupo Hive, envolvendo plataformas de gestão empresarial, recursos humanos, faturamento e atendimento.</p><p>Uma das principais responsabilidades foi a atuação no produto BeeBilling, acumulando atividades de Product Owner, Scrum Master e Tech Lead. Nesse contexto, trabalhei diretamente com a equipe de desenvolvimento, organizando backlogs, sprints e roadmaps, além de acompanhar entregas, levantar requisitos e alinhar necessidades com as áreas de negócio.</p><p>Também participei de processos de faturamento, importações de dados, integrações, documentação técnica e capacitação de usuários.</p></div></div></article>
-          <article class="experiencia__item"><span class="experiencia__numero" aria-hidden="true">03</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Agosto de 2024 – Outubro de 2024</span></div><h3>Gestão Rastreamento</h3><p class="experiencia__cargo">Gerente de Projetos e Tech Lead</p><div class="experiencia__descricao"><p>Fui responsável pela coordenação de três frentes de trabalho: Suporte, Implantação e Desenvolvimento, reunindo uma equipe de 15 profissionais.</p><p>O trabalho envolveu estruturar processos, organizar as demandas das equipes e estabelecer práticas de gestão adequadas à realidade de cada área.</p><p>Entre as atividades desenvolvidas, estiveram a implantação e administração de ferramentas como Freshdesk, ClickUp e Jira, organização dos atendimentos e indicadores de SLA, planejamento de implantações e acompanhamento das entregas de desenvolvimento.</p><p>Também atuei na gestão de produtos ERP, mobile e soluções financeiras, participando da organização de sprints, backlogs e roadmaps.</p></div></div></article>
-          <article class="experiencia__item"><span class="experiencia__numero" aria-hidden="true">04</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Abril de 2021 – Junho de 2024</span></div><h3>Eloca</h3><p class="experiencia__cargo">Consultoria, Implantação e Arquitetura de Soluções</p><div class="experiencia__descricao"><p>A Eloca teve um papel importante na minha trajetória profissional. Comecei trabalhando com suporte técnico especializado em ERP e, ao longo de pouco mais de três anos, tive a oportunidade de atuar em implantação de sistemas, consultoria, arquitetura de soluções e projetos especializados.</p><p>Durante esse período, participei de mais de 150 entradas em produção (GoLives), trabalhando com planejamento, levantamento de requisitos, configuração de sistemas, treinamento de usuários e acompanhamento das operações.</p><p>Posteriormente, passei a atuar na arquitetura de soluções, coordenando projetos de diferentes complexidades, desde consultorias pontuais até grandes reimplantações.</p><p>Em 2023, desenvolvi e publiquei um curso EAD sobre os módulos de um ERP voltado ao segmento de locação de equipamentos para construção civil.</p><p>Também participei da implantação piloto de uma solução de ponto de locação e frente de caixa, conduzindo posteriormente workshops para apoiar sua expansão em uma rede de franquias.</p><p>Na etapa final dessa experiência, integrei o projeto Kindness Channel, voltado a consultorias e projetos de média e alta complexidade. Também atuei na capacitação de novos implantadores e na formação de consultores.</p></div></div></article>
-          <article class="experiencia__item"><span class="experiencia__numero" aria-hidden="true">05</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Junho de 2020 – Novembro de 2020</span></div><h3>Exclusiva Têxtil</h3><p class="experiencia__cargo">Gerente de TI e Projetos</p><div class="experiencia__descricao"><p>Atuei na gestão de TI e projetos, coordenando uma equipe de sete profissionais, entre colaboradores internos e terceirizados.</p><p>Além da administração da infraestrutura tecnológica, servidores, usuários e sistemas, fui responsável pela gestão do ERP utilizado pela empresa, apoiando parametrizações, documentação e treinamento de usuários.</p><p>Também desenvolvi trabalhos de mapeamento e melhoria de processos internos, utilizando ferramentas como Bizagi, além de acompanhar projetos e apresentar resultados às lideranças.</p></div></div></article>
-          <article class="experiencia__item"><span class="experiencia__numero" aria-hidden="true">06</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Novembro de 2013 – Fevereiro de 2019</span></div><h3>Technomax Informática</h3><p class="experiencia__cargo">Análise de Sistemas, Qualidade e Suporte Técnico</p><div class="experiencia__descricao"><p>Na Technomax, consolidei boa parte da minha experiência com sistemas de gestão empresarial, suporte técnico e relacionamento com usuários.</p><p>Atuei no atendimento técnico em diferentes níveis, análise de problemas em ERP, documentação de procedimentos, treinamento de profissionais e apoio aos clientes.</p><p>Também tive a oportunidade de trabalhar com qualidade de software e processos, ampliando meus conhecimentos sobre o funcionamento dos sistemas e a importância de uma operação bem estruturada.</p></div></div></article>
-          <a class="experiencia__mais" href="https://www.linkedin.com/in/rafael-borges-dasilva/" target="_blank" rel="noopener noreferrer">Ver experiência completa no LinkedIn <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </section>
+<span aria-hidden="true" class="projeto-autor__play">▶</span></div>
+<div class="projeto-autor__descricao"><span class="projeto-autor__categoria">AUTOMAÇÃO CONTÁBIL</span><h3>Midas by RBS Technology</h3><p>Plataforma criada para importar extratos bancários e transformar movimentações em classificações contábeis mais organizadas, aplicando regras de débito e crédito, aprendizado progressivo, validações operacionais e geração de planilhas finais para conferência e integração com o processo do escritório.</p></div>
+</article>
+<article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Evolut Lite" class="projeto-autor" data-projeto="evolut-lite" data-video-projeto="evolut-lite" role="button" tabindex="0">
+<div class="projeto-autor__vitrine projeto-autor__vitrine--evolut">
+<img alt="Logo do Evolut Lite" class="projeto-autor__logo projeto-autor__logo--wordmark" decoding="async" loading="lazy" src="./assets/projetos/logos/evolut-lite-oficial.webp"/>
 
-    <section class="contato" id="contato" aria-labelledby="titulo-contato">
-      <div class="container contato__interno">
-        <div><span class="secao-topo__legenda">CONTATO</span><h2 id="titulo-contato">Entre em contato</h2><p>Se quiser conversar sobre projetos de tecnologia, implantação de sistemas, consultorias ou treinamentos, você pode entrar em contato comigo pelos canais abaixo.</p></div>
-        <div class="contato__acoes"><a class="botao botao--escuro" href="mailto:rafaelbordasi@outlook.com">Enviar e-mail <span aria-hidden="true">↗</span></a><a class="contato__linkedin" href="https://www.linkedin.com/in/rafael-borges-dasilva/" target="_blank" rel="noopener noreferrer">Acessar LinkedIn <span aria-hidden="true">↗</span></a></div>
-      </div>
-    </section>
-  </main>
-  <footer class="rodape"><div class="container rodape__interno"><span>© <span id="ano-atual">2026</span> Rafael Borges</span><span>Portfólio profissional</span><a href="#inicio">Voltar ao início ↑</a></div></footer>
-  <dialog class="player" id="video-dialog" aria-labelledby="video-dialog-title">
-    <div class="player__interno"><div class="player__cabecalho"><div><span>APRESENTAÇÃO EM VÍDEO</span><h2 id="video-dialog-title">Apresentação</h2></div><button class="player__fechar" id="close-dialog" type="button" aria-label="Fechar vídeo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"/></svg></button></div><div class="player__midia"><iframe id="video-frame" title="Reprodutor de vídeo" allow="autoplay; fullscreen; encrypted-media" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div><div class="player__rodape"><span>Se o vídeo não carregar, você pode assistir diretamente pelo Google Drive.</span><a href="https://drive.google.com" id="video-direct" target="_blank" rel="noopener noreferrer">Abrir no Google Drive ↗</a></div></div>
-  </dialog>
-</body>
+<span aria-hidden="true" class="projeto-autor__play">▶</span></div>
+<div class="projeto-autor__descricao"><span class="projeto-autor__categoria">GESTÃO EMPRESARIAL</span><h3>Evolut Lite</h3><p>Sistema de gestão empresarial desenhado para centralizar operações comerciais e administrativas, reunindo recursos de vendas, PDV, cadastros, estoque, compras, financeiro, relatórios e apoio à rotina operacional, com uma experiência pensada para dar velocidade, controle e visão do negócio.</p></div>
+</article>
+<article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Rastro" class="projeto-autor" data-projeto="rastro" data-video-projeto="rastro" role="button" tabindex="0">
+<div class="projeto-autor__vitrine projeto-autor__vitrine--rastro">
+<img alt="Ícone do Rastro" class="projeto-autor__logo projeto-autor__logo--icone-v11-3" decoding="async" loading="lazy" src="./assets/projetos/logos/rastro-oficial.webp"/>
+<span aria-hidden="true" class="projeto-autor__play">▶</span></div>
+<div class="projeto-autor__descricao"><span class="projeto-autor__categoria">AUDITORIA OPERACIONAL</span><h3>Rastro</h3><p>Software voltado à auditoria de deslocamentos e jornadas, com importação de planilhas, leitura operacional de motoristas e veículos, distribuição de atualizações, apoio à conferência de ocorrências e geração de relatórios que ajudam a transformar dados de campo em informação útil para análise e decisão.</p></div>
+</article>
+<article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Nine2Five" class="projeto-autor" data-projeto="nine2five" data-video-projeto="nine2five" role="button" tabindex="0">
+<div class="projeto-autor__vitrine projeto-autor__vitrine--nine2five">
+<img alt="Logo do Nine2Five" class="projeto-autor__logo projeto-autor__logo--icone-v11-3" decoding="async" loading="lazy" src="./assets/projetos/logos/nine2five-oficial.png"/>
+
+<span aria-hidden="true" class="projeto-autor__play">▶</span></div>
+<div class="projeto-autor__descricao"><span class="projeto-autor__categoria">CONSULTORIA E PROJETOS</span><h3>Nine2Five</h3><p>Plataforma criada para concentrar a gestão de projetos, consultorias, atas de reuniões, contratos, prestação de serviços, treinamentos e acompanhamento de entregas, ajudando a transformar planejamento em execução com histórico, organização e rastreabilidade do trabalho realizado.</p></div>
+</article>
+<article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Rafoot" class="projeto-autor" data-projeto="rafoot" data-video-projeto="rafoot" role="button" tabindex="0"><div class="projeto-autor__vitrine projeto-autor__vitrine--rafoot"><img alt="Logo do Rafoot" class="projeto-autor__logo projeto-autor__logo--icone-v11-3" decoding="async" loading="lazy" src="./assets/projetos/logos/rafoot-oficial.png"/><span aria-hidden="true" class="projeto-autor__play">▶</span></div><div class="projeto-autor__descricao"><span class="projeto-autor__categoria">ESPORTE E ESTRATÉGIA</span><h3>Rafoot</h3><p>Aplicativo com proposta voltada ao universo do futebol, pensado para reunir identidade esportiva, leitura visual de jogo e organização tática em uma experiência que pode apoiar acompanhamento de partidas, análise de movimentações e construção de uma presença digital forte para o projeto.</p></div></article><article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Dá o Papo!" class="projeto-autor" data-projeto="da-o-papo" data-video-projeto="da-o-papo" role="button" tabindex="0"><div class="projeto-autor__vitrine projeto-autor__vitrine--daopapo"><img alt="Logo do Dá o Papo!" class="projeto-autor__logo projeto-autor__logo--icone-v11-3" decoding="async" loading="lazy" src="./assets/projetos/logos/da-o-papo-oficial.png"/><span aria-hidden="true" class="projeto-autor__play">▶</span></div><div class="projeto-autor__descricao"><span class="projeto-autor__categoria">TRANSCRIÇÃO E PRODUTIVIDADE</span><h3>Dá o Papo!</h3><p>Aplicativo desenvolvido para facilitar a transcrição de áudios e vídeos, apoiando quem precisa transformar conteúdo falado em texto com mais rapidez, praticidade e organização, incluindo fluxos voltados a upload, processamento, leitura do resultado e uso posterior em estudo, trabalho ou registro operacional.</p></div></article><article aria-haspopup="dialog" aria-label="Assistir à demonstração do projeto Submundo" class="projeto-autor" data-projeto="submundo" data-video-projeto="submundo" role="button" tabindex="0">
+<div class="projeto-autor__vitrine projeto-autor__vitrine--submundo">
+<img alt="Logo do Submundo" class="projeto-autor__logo projeto-autor__logo--icone-v11-3" decoding="async" loading="lazy" src="./assets/projetos/logos/submundo-oficial.webp"/>
+
+<span aria-hidden="true" class="projeto-autor__play">▶</span></div>
+<div class="projeto-autor__descricao"><span class="projeto-autor__categoria">JOGO E SIMULAÇÃO</span><h3>Submundo</h3><p>Jogo de simulação e estratégia ambientado em uma cidade dinâmica, com foco em evolução do personagem, missões, economia, territórios, progressão e tomada de decisões, combinando identidade própria com uma proposta de experiência voltada a narrativa e construção de longo prazo.</p></div>
+</article>
+</div></div>
+</section>
+<section aria-labelledby="titulo-experiencia" class="experiencia" id="experiencia">
+<div class="container experiencia__grade">
+<div class="experiencia__titulo"><span class="secao-topo__legenda">EXPERIÊNCIA PROFISSIONAL</span><h2 id="titulo-experiencia">Minha trajetória <span>profissional.</span></h2><p>Minha carreira começou na área técnica e, ao longo dos anos, foi se aproximando cada vez mais da gestão de projetos, produtos e pessoas. Tive a oportunidade de trabalhar com diferentes segmentos, sistemas empresariais e equipes, experiências que contribuíram para a minha formação profissional e para a maneira como conduzo meu trabalho atualmente.</p></div>
+<div class="experiencia__lista"><div aria-hidden="true" class="experiencia__trilho"><span></span></div><p class="experiencia__instrucao">Selecione “Ver atividades” para conhecer mais sobre cada experiência.</p>
+<article class="experiencia__item experiencia__item--destaque"><span aria-hidden="true" class="experiencia__numero">01</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Setembro de 2024 – Atual</span><span class="experiencia__distintivo">Atuação atual</span></div><h3>RBS Technology</h3><p class="experiencia__cargo">Diretor de Projetos</p><div class="experiencia__descricao"><p>Atualmente, atuo na direção de projetos da RBS Technology, dando continuidade à minha trajetória em gestão de tecnologia, desenvolvimento de soluções e produtos digitais.</p></div></div></article>
+<article class="experiencia__item"><span aria-hidden="true" class="experiencia__numero">02</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Outubro de 2024 – Dezembro de 2025</span></div><h3>Omnibees / Grupo Hive</h3><p class="experiencia__cargo">Analista de Sistemas Sênior</p><div class="experiencia__descricao"><p>Atuei na administração de sistemas corporativos utilizados pelas seis empresas do Grupo Hive, envolvendo plataformas de gestão empresarial, recursos humanos, faturamento e atendimento.</p></div><details class="experiencia__detalhes"><summary><span class="experiencia__detalhes-abrir">Ver atividades</span><span class="experiencia__detalhes-fechar">Recolher atividades</span><span aria-hidden="true" class="experiencia__detalhes-icone">+</span></summary><div class="experiencia__detalhes-conteudo"><p>Uma das principais responsabilidades foi a atuação no produto BeeBilling, acumulando atividades de Product Owner, Scrum Master e Tech Lead. Nesse contexto, trabalhei diretamente com a equipe de desenvolvimento, organizando backlogs, sprints e roadmaps, além de acompanhar entregas, levantar requisitos e alinhar necessidades com as áreas de negócio.</p><p>Também participei de processos de faturamento, importações de dados, integrações, documentação técnica e capacitação de usuários.</p></div></details></div></article>
+<article class="experiencia__item experiencia__item--destaque"><span aria-hidden="true" class="experiencia__numero">03</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Agosto de 2024 – Outubro de 2024</span></div><h3>Gestão Rastreamento</h3><p class="experiencia__cargo">Gerente de Projetos e Tech Lead</p><div class="experiencia__descricao"><p>Fui responsável pela coordenação de três frentes de trabalho: Suporte, Implantação e Desenvolvimento, envolvendo equipes de diferentes especialidades.</p></div><details class="experiencia__detalhes"><summary><span class="experiencia__detalhes-abrir">Ver atividades</span><span class="experiencia__detalhes-fechar">Recolher atividades</span><span aria-hidden="true" class="experiencia__detalhes-icone">+</span></summary><div class="experiencia__detalhes-conteudo"><p>O trabalho envolveu estruturar processos, organizar as demandas das equipes e estabelecer práticas de gestão adequadas à realidade de cada área.</p><p>Entre as atividades desenvolvidas, estiveram a implantação e administração de ferramentas como Freshdesk, ClickUp e Jira, organização dos atendimentos e indicadores de SLA, planejamento de implantações e acompanhamento das entregas de desenvolvimento.</p><p>Também atuei na gestão de produtos ERP, mobile e soluções financeiras, participando da organização de sprints, backlogs e roadmaps.</p></div></details></div></article>
+<article class="experiencia__item experiencia__item--destaque"><span aria-hidden="true" class="experiencia__numero">04</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Abril de 2021 – Junho de 2024</span></div><h3>Eloca</h3><p class="experiencia__cargo">Consultoria, Implantação e Arquitetura de Soluções</p><div class="experiencia__descricao"><p>A Eloca teve um papel importante na minha trajetória profissional. Comecei trabalhando com suporte técnico especializado em ERP e, ao longo de pouco mais de três anos, tive a oportunidade de atuar em implantação de sistemas, consultoria, arquitetura de soluções e projetos especializados.</p></div><details class="experiencia__detalhes"><summary><span class="experiencia__detalhes-abrir">Ver atividades</span><span class="experiencia__detalhes-fechar">Recolher atividades</span><span aria-hidden="true" class="experiencia__detalhes-icone">+</span></summary><div class="experiencia__detalhes-conteudo"><p>Durante esse período, participei de projetos de entrada em produção (GoLive), trabalhando com planejamento, levantamento de requisitos, configuração de sistemas, treinamento de usuários e acompanhamento das operações.</p><p>Posteriormente, passei a atuar na arquitetura de soluções, coordenando projetos de diferentes complexidades, desde consultorias pontuais até grandes reimplantações.</p><p>Em 2023, desenvolvi e publiquei um curso EAD sobre os módulos de um ERP voltado ao segmento de locação de equipamentos para construção civil.</p><p>Também participei da implantação piloto de uma solução de ponto de locação e frente de caixa, conduzindo posteriormente workshops para apoiar sua expansão em uma rede de franquias.</p><p>Na etapa final dessa experiência, integrei o projeto Kindness Channel, voltado a consultorias e projetos de média e alta complexidade. Também atuei na capacitação de novos implantadores e na formação de consultores.</p></div></details></div></article>
+<article class="experiencia__item"><span aria-hidden="true" class="experiencia__numero">05</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Junho de 2020 – Novembro de 2020</span></div><h3>Exclusiva Têxtil</h3><p class="experiencia__cargo">Gerente de TI e Projetos</p><div class="experiencia__descricao"><p>Atuei na gestão de TI e projetos, coordenando uma equipe de sete profissionais, entre colaboradores internos e terceirizados.</p></div><details class="experiencia__detalhes"><summary><span class="experiencia__detalhes-abrir">Ver atividades</span><span class="experiencia__detalhes-fechar">Recolher atividades</span><span aria-hidden="true" class="experiencia__detalhes-icone">+</span></summary><div class="experiencia__detalhes-conteudo"><p>Além da administração da infraestrutura tecnológica, servidores, usuários e sistemas, fui responsável pela gestão do ERP utilizado pela empresa, apoiando parametrizações, documentação e treinamento de usuários.</p><p>Também desenvolvi trabalhos de mapeamento e melhoria de processos internos, utilizando ferramentas como Bizagi, além de acompanhar projetos e apresentar resultados às lideranças.</p></div></details></div></article>
+<article class="experiencia__item"><span aria-hidden="true" class="experiencia__numero">06</span><div class="experiencia__corpo"><div class="experiencia__meta"><span class="experiencia__data">Novembro de 2013 – Fevereiro de 2019</span></div><h3>Technomax Informática</h3><p class="experiencia__cargo">Análise de Sistemas, Qualidade e Suporte Técnico</p><div class="experiencia__descricao"><p>Na Technomax, consolidei boa parte da minha experiência com sistemas de gestão empresarial, suporte técnico e relacionamento com usuários.</p></div><details class="experiencia__detalhes"><summary><span class="experiencia__detalhes-abrir">Ver atividades</span><span class="experiencia__detalhes-fechar">Recolher atividades</span><span aria-hidden="true" class="experiencia__detalhes-icone">+</span></summary><div class="experiencia__detalhes-conteudo"><p>Atuei no atendimento técnico em diferentes níveis, análise de problemas em ERP, documentação de procedimentos, treinamento de profissionais e apoio aos clientes.</p><p>Também tive a oportunidade de trabalhar com qualidade de software e processos, ampliando meus conhecimentos sobre o funcionamento dos sistemas e a importância de uma operação bem estruturada.</p></div></details></div></article>
+<a class="experiencia__mais" href="https://www.linkedin.com/in/rafael-borges-dasilva/" rel="noopener noreferrer" target="_blank">Ver experiência completa no LinkedIn <span aria-hidden="true">↗</span></a>
+</div>
+</div>
+</section><section aria-labelledby="titulo-conhecimentos" class="conhecimentos" id="conhecimentos"><div class="container">
+<div class="conhecimentos__cabecalho"><div><span class="secao-topo__legenda">REPERTÓRIO TÉCNICO</span><h2 id="titulo-conhecimentos">Conhecimentos e <span>ferramentas.</span></h2></div><p>Ferramentas e metodologias com as quais tive contato profissionalmente. Aqui o objetivo é mostrar repertório, não transformar a página em um catálogo de siglas.</p></div>
+<div class="conhecimentos__grade">
+<article class="conhecimento"><span class="conhecimento__numero">01</span><h3>Gestão e projetos</h3><p>Scrum, PMI/PMBOK, ITIL, BPMN, planejamento e gestão de stakeholders.</p><div class="conhecimento__tags"><span>Jira</span><span>ClickUp</span><span>MS Project</span><span>Monday</span><span>Asana</span><span>Trello</span></div></article>
+<article class="conhecimento"><span class="conhecimento__numero">02</span><h3>ERP e sistemas corporativos</h3><p>Vivência em administração, implantação, parametrização e suporte de sistemas empresariais.</p><div class="conhecimento__tags"><span>Dynamics Navision</span><span>TOTVS</span><span>OneBoss</span><span>Ótimo Gestor</span><span>Linx Microvix</span><span>Salesforce</span></div></article>
+<article class="conhecimento"><span class="conhecimento__numero">03</span><h3>Arquitetura e integração</h3><p>Modelagem de processos e dados, documentação técnica, casos de uso e integrações por API.</p><div class="conhecimento__tags"><span>SQL Server</span><span>MySQL</span><span>Firebird</span><span>Postman</span><span>Swagger</span><span>Bizagi</span></div></article>
+<article class="conhecimento"><span class="conhecimento__numero">04</span><h3>Documentação e colaboração</h3><p>Organização de requisitos, manuais, documentação de projetos e acompanhamento do trabalho em equipe.</p><div class="conhecimento__tags"><span>Confluence</span><span>Notion</span><span>SharePoint</span><span>Miro</span><span>Lucidchart</span></div></article>
+</div>
+</div></section><section aria-labelledby="titulo-formacao" class="formacao" id="formacao"><div class="container formacao__grade">
+<div class="formacao__apresentacao"><span class="secao-topo__legenda">FORMAÇÃO</span><h2 id="titulo-formacao">Formação e <span>qualificações.</span></h2><p>Uma base construída entre formação acadêmica, cursos e experiência prática ao longo dos anos.</p><a class="botao botao--principal formacao__download" download="" href="./assets/curriculo-rafael-borges.pdf">Baixar currículo em PDF <span aria-hidden="true">↓</span></a><small class="formacao__aviso">Currículo profissional original, disponibilizado integralmente em PDF (3 páginas).</small></div>
+<div class="formacao__lista"><article><div class="formacao__rotulo">FORMAÇÃO ACADÊMICA</div><h3>Análise e Desenvolvimento de Sistemas</h3><p>Universidade São Judas Tadeu</p><h3>Sistemas de Informação</h3><p>Universidade Paulista</p></article><article><div class="formacao__rotulo">CERTIFICAÇÕES INFORMADAS NO CURRÍCULO</div><h3>PMP · PSM I</h3><p>PMI e Scrum.org</p></article><article><div class="formacao__rotulo">CURSOS</div><h3>Gestão de Pessoas · Gestão de Tempo e Produtividade</h3><p>Insper</p></article></div>
+</div></section><section aria-labelledby="titulo-recomendacoes" class="recomendacoes" id="recomendacoes">
+<div class="container recomendacoes__conteudo">
+<div class="recomendacoes__abertura">
+<span class="secao-topo__legenda">RECOMENDAÇÕES PROFISSIONAIS</span>
+<h2 id="titulo-recomendacoes">Quem trabalhou <span>comigo.</span></h2>
+<p>Depoimentos públicos de profissionais com quem tive a oportunidade de trabalhar em diferentes contextos, incluindo liderança direta, trabalho em equipe e projetos de implantação.</p>
+<a class="recomendacoes__origem" href="https://www.linkedin.com/in/rafael-borges-dasilva/" rel="noopener noreferrer" target="_blank">Consultar recomendações no LinkedIn <span aria-hidden="true">↗</span></a>
+</div>
+<div class="recomendacoes__lista"><article aria-label="Recomendação de Diogo Arado" class="recomendacao-card" data-recomendacao="1"><span aria-hidden="true" class="recomendacao-card__numero">01</span>
+<div class="recomendacao-card__cabecalho">
+<img alt="Foto de Diogo Arado" class="recomendacao-card__foto" loading="eager" src="./assets/recomendacoes/diogo-arado.png"/>
+<div class="recomendacao-card__identificacao">
+<h3>Diogo Arado</h3>
+<p class="recomendacao-card__cargo">Sócio-fundador @ Pruma IA</p>
+<span class="recomendacao-card__relacao">Supervisionava Rafael diretamente · janeiro de 2025</span>
+</div>
+</div>
+<div class="recomendacao-card__texto">
+<p>Tive o privilégio de liderar o Rafael Borges na ELOCA, onde ele atuou como Analista de Implantação de ERP. Desde o início, Rafael demonstrou um nível de dedicação e atenção aos detalhes que poucos conseguem alcançar. Sua capacidade de compreender as necessidades dos clientes, planejar e executar projetos de forma impecável foi uma constante em nosso trabalho conjunto.</p>
+<p>Além de ser um profissional extremamente atencioso, Rafael conquistava a confiança e o respeito de todos ao seu redor. Era comum ouvir elogios vindos não apenas de clientes satisfeitos, mas também de colegas que admiravam sua organização, competência e postura colaborativa.</p>
+<p>Seja na gestão de projetos complexos ou no atendimento a demandas específicas, Rafael sempre se destacou por sua excelência técnica e habilidade de comunicação. Tenho plena confiança de que ele continuará a agregar valor por onde passar, e o recomendo sem hesitar.</p>
+</div>
+</article><article aria-label="Recomendação de Nivaldo Paixão Jr." class="recomendacao-card" data-recomendacao="2"><span aria-hidden="true" class="recomendacao-card__numero">02</span>
+<div class="recomendacao-card__cabecalho">
+<img alt="Foto de Nivaldo Paixão Jr." class="recomendacao-card__foto" loading="eager" src="./assets/recomendacoes/nivaldo-paixao-jr.png"/>
+<div class="recomendacao-card__identificacao">
+<h3>Nivaldo Paixão Jr.</h3>
+<p class="recomendacao-card__cargo">Gestão Operacional, Financeiro e Liderança Estratégica</p>
+<span class="recomendacao-card__relacao">Foi cliente de Rafael · julho de 2024</span>
+</div>
+</div>
+<div class="recomendacao-card__texto">
+<p>Tive o prazer de trabalhar com Rafael durante a implantação do Sistema Ótimo Gestor na empresa. Sua expertise e comprometimento foram fundamentais para o sucesso do projeto. Rafael demonstrou um profundo conhecimento técnico do sistema e uma capacidade impressionante de personalizar a solução para atender às nossas necessidades específicas. Ele foi proativo em identificar desafios potenciais e ofereceu soluções criativas que otimizaram nossos processos internos.</p>
+<p>Além disso, sua habilidade de comunicação clara e eficaz ajudou a manter toda a equipe alinhada e engajada ao longo do projeto. Ele sempre esteve disponível para responder às nossas perguntas e resolver quaisquer problemas que surgissem, garantindo que a transição para o novo sistema fosse suave e sem interrupções significativas.</p>
+<p>Ficamos muito satisfeitos com o profissionalismo e a dedicação dele, e não hesitaria em recomendá-lo para qualquer desafio nessa área de atuação. Ele é uma adição valiosa para qualquer equipe que busca implementar sistemas complexos de forma eficiente e eficaz.</p>
+</div>
+</article><article aria-label="Recomendação de Misael Silva" class="recomendacao-card" data-recomendacao="3"><span aria-hidden="true" class="recomendacao-card__numero">03</span>
+<div class="recomendacao-card__cabecalho">
+<img alt="Foto de Misael Silva" class="recomendacao-card__foto" loading="eager" src="./assets/recomendacoes/misael-silva.png"/>
+<div class="recomendacao-card__identificacao">
+<h3>Misael Silva</h3>
+<p class="recomendacao-card__cargo">Editor de Vídeo</p>
+<span class="recomendacao-card__relacao">Trabalhou com Rafael em equipes diferentes · agosto de 2024</span>
+</div>
+</div>
+<div class="recomendacao-card__texto">
+<p>É com grande satisfação que eu mais que recomendo o grande Rafael Borges, para oportunidades na área de Arquiteto de Negócios e como Implantador. Trabalhei com ele por um ano, participei com ele em diversos projetos e posso afirmar que é uma pessoa extremamente competente, dedicada e com um profundo conhecimento técnico, e boa comunicação entre a equipe e com os clientes, ele é literalmente uma enciclopédia de conhecimento.</p>
+<p>Sem dizer sobre sua maturidade profissional, e sua paciência e sua capacidade de resolver problemas de forma eficaz, posso dizer com toda certeza que esse cara é diferente.</p>
+</div>
+</article><article aria-label="Recomendação de Marcelo Pelisser" class="recomendacao-card" data-recomendacao="4"><span aria-hidden="true" class="recomendacao-card__numero">04</span>
+<div class="recomendacao-card__cabecalho">
+<img alt="Foto de Marcelo Pelisser" class="recomendacao-card__foto" loading="eager" src="./assets/recomendacoes/marcelo-pelisser.png"/>
+<div class="recomendacao-card__identificacao">
+<h3>Marcelo Pelisser</h3>
+<p class="recomendacao-card__cargo">Proprietário da empresa Pelisserv Odonto Médicos</p>
+<span class="recomendacao-card__relacao">Foi cliente de Rafael · agosto de 2024</span>
+</div>
+</div>
+<div class="recomendacao-card__texto">
+<p>Rafael fez parte do projeto de implantação do sistema ERP em nossa empresa e posterior a isso nos ajudou em ajustes e treinamentos para melhorias, sempre comprometido e com uma comunicação clara e eficiente, tem um olhar crítico e sempre buscou dentro das limitações que o sistema oferecia achar uma solução que fosse de encontro com as nossas necessidades e desafios.</p>
+</div>
+</article><article aria-label="Recomendação de Edna Lima" class="recomendacao-card recomendacao-card--fechamento" data-recomendacao="5"><span aria-hidden="true" class="recomendacao-card__numero">05</span>
+<div class="recomendacao-card__cabecalho">
+<img alt="Foto de Edna Lima" class="recomendacao-card__foto" loading="eager" src="./assets/recomendacoes/edna-lima.png"/>
+<div class="recomendacao-card__identificacao">
+<h3>Edna Lima</h3>
+<p class="recomendacao-card__cargo">Analista de Sustentação</p>
+<span class="recomendacao-card__relacao">Trabalhou na mesma equipe que Rafael · julho de 2024</span>
+</div>
+</div>
+<div class="recomendacao-card__texto">
+<p>Rafael é um profissional incrível, trabalhou comigo em vários projetos. Sempre muito prestativo e assertivo em suas implantações. Uma pessoa que sabe trabalhar em equipe e mesmo com problemas difíceis sempre trouxe uma leveza pra chegarmos na solução.</p>
+</div>
+</article></div>
+</div>
+</section><section aria-labelledby="titulo-contato" class="contato" id="contato">
+<div class="container contato__novo">
+<div class="contato__intro"><span class="secao-topo__legenda">CONTATO</span><h2 id="titulo-contato">Entre em contato<span>.</span></h2><p>Se quiser conversar sobre projetos de tecnologia, implantação de sistemas, consultorias ou treinamentos, você pode entrar em contato comigo pelos canais abaixo.</p></div>
+<div class="contato__opcoes">
+<a aria-label="Iniciar conversa no WhatsApp" class="contato__opcao" href="https://wa.me/5511936187075" rel="noopener noreferrer" target="_blank">
+<span aria-hidden="true" class="contato__opcao-icone">↗</span><span class="contato__opcao-corpo"><span>CONVERSA</span><strong>WhatsApp</strong><small>Iniciar conversa</small></span><span aria-hidden="true" class="contato__opcao-seta">↗</span>
+</a>
+<a aria-label="Enviar e-mail para Rafael Borges" class="contato__opcao" href="mailto:rafael._borges@icloud.com">
+<span aria-hidden="true" class="contato__opcao-icone">✉</span><span class="contato__opcao-corpo"><span>E-MAIL</span><strong>Enviar e-mail</strong><small>rafael._borges@icloud.com</small></span><span aria-hidden="true" class="contato__opcao-seta">↗</span>
+</a>
+<a class="contato__linkedin" href="https://www.linkedin.com/in/rafael-borges-dasilva/" rel="noopener noreferrer" target="_blank">Acessar LinkedIn <span aria-hidden="true">↗</span></a>
+<a class="contato__curriculo" download="" href="./assets/curriculo-rafael-borges.pdf">Baixar currículo profissional <span aria-hidden="true">↓</span></a></div>
+</div>
+</section></main>
+<aside aria-label="Canais de contato" class="baloes-contato">
+<a aria-label="Iniciar conversa no WhatsApp" class="balao-contato balao-contato--whatsapp" href="https://wa.me/5511936187075" rel="noopener noreferrer" target="_blank" title="Iniciar conversa no WhatsApp">
+<svg aria-hidden="true" fill="currentColor" viewbox="0 0 32 32"><path d="M16 .8A15.1 15.1 0 0 0 3.1 23.7L1 31l7.5-2A15.2 15.2 0 1 0 16 .8Zm0 27.7a12.4 12.4 0 0 1-6.4-1.8l-.5-.3-4.5 1.2 1.2-4.4-.3-.5A12.4 12.4 0 1 1 16 28.5Zm6.8-9.3c-.4-.2-2.3-1.1-2.7-1.2-.3-.1-.6-.2-.8.2-.3.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-1.9-1.2-1.1-1.9-2.5-2.1-2.9-.2-.4 0-.6.2-.8l.6-.7.4-.6c.1-.2.1-.5 0-.7l-1.2-2.9c-.3-.7-.6-.6-.8-.6h-.7c-.3 0-.7.1-1.1.5-.4.4-1.5 1.5-1.5 3.5 0 2.1 1.5 4.1 1.7 4.4.2.3 3 4.6 7.2 6.4 1 .4 1.8.6 2.4.8 1 .3 1.9.2 2.6.1.8-.1 2.3-1 2.7-1.9.3-.9.3-1.7.2-1.9-.1-.2-.3-.3-.7-.5Z"></path></svg><span>WhatsApp</span>
+</a>
+<a aria-label="Enviar e-mail" class="balao-contato balao-contato--email" href="mailto:rafael._borges@icloud.com" title="Enviar e-mail"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewbox="0 0 24 24"><rect height="14.2" rx="2" width="18.6" x="2.7" y="4.9"></rect><path d="m3.5 6 8.5 6.7L20.5 6"></path></svg><span>E-mail</span></a>
+</aside>
+<a aria-label="Voltar ao início" class="voltar-topo" href="#inicio" id="voltar-topo" tabindex="-1">
+<svg aria-hidden="true" fill="none" viewbox="0 0 48 48">
+<circle class="voltar-topo__trilha" cx="24" cy="24" r="20"></circle>
+<circle class="voltar-topo__progresso" cx="24" cy="24" id="anel-progresso" r="20"></circle>
+<path class="voltar-topo__seta" d="M24 31V17m0 0-6 6m6-6 6 6"></path>
+</svg>
+</a>
+<footer class="rodape"><div class="container rodape__interno"><span>© <span id="ano-atual">2026</span> Rafael Borges</span><span>Portfólio profissional</span><a href="#inicio">Voltar ao início ↑</a></div></footer>
+<dialog aria-labelledby="video-dialog-title" class="player" id="video-dialog">
+<div class="player__interno"><div class="player__cabecalho"><div><span>APRESENTAÇÃO EM VÍDEO</span><h2 id="video-dialog-title">Apresentação</h2></div><button aria-label="Fechar vídeo" class="player__fechar" id="close-dialog" type="button"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2" viewbox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"></path></svg></button></div><div class="player__midia"><iframe allow="autoplay; fullscreen; encrypted-media" allowfullscreen="" id="video-frame" referrerpolicy="strict-origin-when-cross-origin" title="Reprodutor de vídeo"></iframe></div><div class="player__rodape"><span>Se o vídeo não carregar, você pode assistir diretamente pelo Google Drive.</span><a href="https://drive.google.com" id="video-direct" rel="noopener noreferrer" target="_blank">Abrir no Google Drive ↗</a></div></div>
+</dialog>
+<dialog aria-describedby="projeto-video-descricao" aria-labelledby="projeto-video-titulo" class="projeto-video-modal" id="projeto-video-modal">
+<div class="projeto-video-modal__painel">
+<div class="projeto-video-modal__cabecalho">
+<div><span class="projeto-video-modal__legenda">PROJETO DESENVOLVIDO</span><h2 id="projeto-video-titulo">Demonstração</h2></div>
+<button aria-label="Fechar demonstração" class="projeto-video-modal__fechar" id="projeto-video-fechar" type="button">×</button>
+</div>
+<div class="projeto-video-modal__tela"><video aria-label="Vídeo de demonstração do projeto" controls="" controlslist="nodownload" disablepictureinpicture="" id="projeto-video-player" loop="" muted="" playsinline="" preload="none"></video></div>
+<div class="projeto-video-modal__rodape"><span id="projeto-video-descricao">Uma prévia do aplicativo ou software em funcionamento.</span><span class="projeto-video-modal__indicador">Demonstração em vídeo</span></div>
+</div>
+</dialog></body>
 </html>

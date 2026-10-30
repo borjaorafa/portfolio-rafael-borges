@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /portfolio-rafael-borges/
+Sitemap: https://borjaorafa.github.io/portfolio-rafael-borges/sitemap.xml
